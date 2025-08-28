@@ -1,6 +1,8 @@
 const Url = "https://jsonplaceholder.typicode.com/photos"
 
 window.onload = function(){
+    $('#editPopUp').hide()
+    $('#addPopUp').hide()
     getObject()
 }
 
